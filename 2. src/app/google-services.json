@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "656586528768",
+    "firebase_url": "https://contactkapp-46957.firebaseio.com",
+    "project_id": "contactkapp-46957",
+    "storage_bucket": "contactkapp-46957.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656586528768:android:093aa9e655e38dbfeda0e5",
+        "android_client_info": {
+          "package_name": "com.example.contactkapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "656586528768-3j16gbv9i7mu5h937f95nv36b9ajll8q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvMJbd98mxujuuIAa5DkenrpMpj1Dsixk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "656586528768-3j16gbv9i7mu5h937f95nv36b9ajll8q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
