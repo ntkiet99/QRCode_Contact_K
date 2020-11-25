@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="2dp"
+    android:id="@+id/user_item_container"
+    >
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:checkable="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/user_item_cardView"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="74dp">
+
+            <ImageButton
+
+                android:id="@+id/btn_contact_favorite"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginEnd="8dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:src="@drawable/ic_favorite"
+                app:layout_constraintBottom_toBottomOf="@+id/user_item_follow"
+                app:layout_constraintEnd_toStartOf="@+id/user_item_follow"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/user_item_avatar"
+                app:layout_constraintTop_toTopOf="@+id/user_item_follow" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/user_item_avatar"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                android:layout_marginStart="16dp"
+                android:src="@drawable/avatar"
+                app:civ_border_color="@color/colorWhite"
+                app:civ_border_width="1px"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <!--                        <View-->
+            <!--                            android:id="@+id/profile_line_view_phone"-->
+            <!--                            android:layout_width="0dp"-->
+            <!--                            android:layout_height="1px"-->
+
+            <!--                            android:layout_marginTop="8dp"-->
+            <!--                            android:background="#2d2d2d"-->
+            <!--                            app:layout_constraintBottom_toBottomOf="parent"-->
+            <!--                            app:layout_constraintEnd_toEndOf="parent"-->
+            <!--                            app:layout_constraintHorizontal_bias="0.0"-->
+            <!--                            app:layout_constraintStart_toStartOf="parent"-->
+            <!--                            app:layout_constraintTop_toBottomOf="@+id/profile_content_phone" />-->
+
+            <TextView
+                android:id="@+id/user_item_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+
+                android:text="Nguyễn Tuấn Kiệt"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/user_item_avatar"
+                app:layout_constraintTop_toTopOf="@+id/user_item_avatar" />
+
+            <TextView
+                android:id="@+id/user_item_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="16dp"
+                android:text="ntkiet99.it"
+                android:textSize="12dp"
+                app:layout_constraintBottom_toBottomOf="@+id/user_item_avatar"
+                app:layout_constraintStart_toEndOf="@+id/user_item_avatar" />
+
+            <Button
+                android:id="@+id/user_item_follow"
+                android:layout_width="90dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="16dp"
+                android:padding="4dp"
+                android:text="Theo dõi"
+                android:textAllCaps="false"
+                android:textSize="10dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.983"
+                app:layout_constraintStart_toEndOf="@+id/user_item_avatar"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

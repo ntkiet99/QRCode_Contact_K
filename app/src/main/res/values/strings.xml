@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Contact K</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="login_title">Danh bạ | KSoftware</string>
+    <string name="login_logo_main_title">Wellcome to KSoft</string>
+    <string name="login_logo_sub_title">Đăng nhập để tiếp tục!</string>
+    <string name="sign_in_to_continue">Đăng nhập để tiếp tục!</string>
+    <string name="you_email_com">ntkiet99.it@gmail.com</string>
+    <string name="you_password">***********</string>
+    <string name="password">Mật khẩu</string>
+    <string name="email">Tài khoản</string>
+    <string name="btn_sign_in">ĐĂNG NHẬP</string>
+    <string name="dont_have_account">Bạn đã có tài khoản?</string>
+    <string name="register_account">Đăng ký tài khoản</string>
+    <string name="create_account">Đăng ký tài khoản</string>
+    <string name="create_new_account">Đăng ký tài khoản mới!</string>
+    <string name="register_username">Họ và Tên</string>
+    <string name="register_you_username">Nguyễn Tuấn Kiệt</string>
+    <string name="confirm_password">Nhập lại mật khẩu</string>
+    <string name="txt_create_new_account">Đăng ký</string>
+    <string name="have_a_account">Bạn đã có tài khoản?</string>
+    <string name="register_sign_in">Đăng nhập</string>
+    <string name="profile_name">Nguyễn Tuấn Kiệt</string>
+    <string name="profile_email"> .@ntkiet99.it</string>
+</resources>
